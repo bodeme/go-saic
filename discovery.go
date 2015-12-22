@@ -10,7 +10,7 @@ import (
 	"code.google.com/p/go-uuid/uuid"
 
 	"github.com/bodeme/go-saic/db"
-	"github.com/telecoda/go-saic/models"
+	"github.com/bodeme/go-saic/models"
 )
 
 func DiscoverImages(sourceImagesPath string) error {

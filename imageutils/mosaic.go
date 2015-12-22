@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/bodeme/go-saic/db"
-	"github.com/telecoda/go-saic/models"
+	"github.com/bodeme/go-saic/models"
 )
 
 func CreateImageMosaic(inputImagePath string, outputImagePath string, outputImageWidth int, tileSize int, mosaicType string) error {

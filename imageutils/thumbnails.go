@@ -11,7 +11,7 @@ import (
 	"github.com/disintegration/imaging"
 
 	"github.com/bodeme/go-saic/db"
-	"github.com/telecoda/go-saic/models"
+	"github.com/bodeme/go-saic/models"
 )
 
 const THUMBNAIL_WIDTH = 128

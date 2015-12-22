@@ -12,7 +12,7 @@ import (
 	"os"
 
 	"github.com/bodeme/go-saic/db"
-	"github.com/telecoda/go-saic/imageutils"
+	"github.com/bodeme/go-saic/imageutils"
 )
 
 // command parameters

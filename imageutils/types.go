@@ -4,7 +4,7 @@ import (
 	"image"
 	"image/color"
 
-	"github.com/telecoda/go-saic/models"
+	"github.com/bodeme/go-saic/models"
 )
 
 type Analyzer interface {

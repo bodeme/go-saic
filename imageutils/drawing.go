@@ -8,7 +8,7 @@ import (
 
 	"github.com/disintegration/imaging"
 
-	"github.com/telecoda/go-saic/models"
+	"github.com/bodeme/go-saic/models"
 )
 
 // Create a new image with grid lines drawn over it

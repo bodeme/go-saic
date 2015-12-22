@@ -7,7 +7,7 @@ import (
 
 	"github.com/HouzuoGuo/tiedot/db"
 
-	"github.com/telecoda/go-saic/models"
+	"github.com/bodeme/go-saic/models"
 )
 
 var imagesDB db.DB
