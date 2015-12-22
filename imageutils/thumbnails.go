@@ -10,7 +10,7 @@ import (
 
 	"github.com/disintegration/imaging"
 
-	"github.com/telecoda/go-saic/db"
+	"github.com/bodeme/go-saic/db"
 	"github.com/telecoda/go-saic/models"
 )
 
