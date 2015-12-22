@@ -9,7 +9,7 @@ import (
 
 	"code.google.com/p/go-uuid/uuid"
 
-	"github.com/telecoda/go-saic/db"
+	"github.com/bodeme/go-saic/db"
 	"github.com/telecoda/go-saic/models"
 )
 
