@@ -10,7 +10,6 @@ import (
 	"github.com/telecoda/go-saic/models"
 )
 
-var imagesDBDir = "/tmp/go-saic/db"
 var imagesDB db.DB
 
 var discoveredCollectionName = "DiscoveredImages"
@@ -24,7 +23,7 @@ type collection struct {
 	DbCol *db.Col
 }
 
-func InitDB(optClearDB bool, optScrubDB bool) {
+func InitDB(optClearDB bool, optScrubDB bool, imagesDBDir string) {
 	// ****************** Collection Management ******************
 
 	//os.RemoveAll(myDBDir)

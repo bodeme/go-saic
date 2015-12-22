@@ -34,6 +34,7 @@ var outputImagePath string
 var outputImageWidth int
 var outputImageHeight int
 var tileSize int
+var imagesDBDir string
 
 // others
 var horiontalTiles int
@@ -64,6 +65,7 @@ func init() {
 	flag.StringVar(&outputImagePath, "o", "output.png", "path of output image")
 	flag.IntVar(&tileSize, "tile_size", 32, "size of image tiles in output image, width & height are the same")
 
+	flag.StringVar(&imagesDBDir, "db", "/tmp/go-saic/db", "path of json database")
 }
 
 var Usage = func() {
@@ -80,7 +82,7 @@ func main() {
 		return
 	}
 
-	db.InitDB(optClearDB, optScrubDB)
+	db.InitDB(optClearDB, optScrubDB, imagesDBDir)
 
 	if optListDB {
 		db.ListDB()
